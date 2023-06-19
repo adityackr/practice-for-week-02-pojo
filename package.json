@@ -1,0 +1,14 @@
+{
+	"name": "practice-for-week-02-pojo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/adityackr/practice-for-week-02-pojo.git",
+	"author": "adityackr <aditya09me@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"mocha": "^10.2.0"
+	},
+	"scripts": {
+		"test": "mocha"
+	}
+}

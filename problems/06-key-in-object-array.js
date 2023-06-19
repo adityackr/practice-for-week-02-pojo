@@ -20,7 +20,10 @@ keyInObjectArray(objArray, 'animal'); // => false
 ***********************************************************************/
 
 function keyInObjectArray(objArray, keyString) {
-  // Your code here
+	for (const obj of objArray) {
+		if (Object.keys(obj).includes(keyString)) return true;
+	}
+	return false;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
